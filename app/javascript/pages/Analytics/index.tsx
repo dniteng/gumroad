@@ -3,6 +3,7 @@ import React from "react";
 
 import { default as AnalyticsPage, AnalyticsPageProps } from "$app/components/server-components/AnalyticsPage";
 
+// Test this page
 function Analytics() {
   const { analytics_props } = usePage<{ analytics_props: AnalyticsPageProps }>().props;
 
